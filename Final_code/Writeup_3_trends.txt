@@ -1,0 +1,22 @@
+#3 observable trends on WeatherPy API-Challenge Homework #6
+
+1). Data was collected on 10/05/2019. As expected, there is a parabolic trend in shifting temperature
+around the equator, where the temperature decreases as it gets further away from the equator
+where the latitude is 0 degrees.  
+
+2). The minimum observed temperatures are closer to the North Pole rather than Antarctica. 
+This is expected, because the North pole is approaching it's winter season, when the Earth's tilt 
+positions the North Pole further away from the sun as compared to the South Pole. We would 
+expect regions closer to the North Pole to be colder than regions closer to the South Pole.
+
+3). Relative humidity is fairly high across the data set, well above an ambient 40%. This
+may be due to a number of regions starting and ending their rainy/monsoon seasons around the world.
+There are a few clusters of data points that also seem to suggest a number of analyzed cities that were 
+randomly selected are within close proximity to each other. The graph may tell a different store
+it a set of cities were analyzed. 
+
+4). Windspeed and cloudiness seems fairly independent of latitude due to the random scattering of data
+However, the cloudiness % data is fairly interesting by the fact various latitudes were measured to have
+the exact same value, which generates horizontal lines on the graph. This may be due to the fact
+their metric for evaluating cloudiness is more a ranking scale by discreet values rather then
+a quantifiable continuous measurement.
